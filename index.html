@@ -11,7 +11,7 @@
         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
         
         <!--=============== SWIPER CSS ===============-->
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 
         <!--=============== CSS ===============-->
         <link rel="stylesheet" href="assets/css/styles.css">
@@ -114,7 +114,7 @@
                         </ul>
                     </div>
 
-                    <!--==================== HOME INFO 1====================-->
+                    <!--==================== HOME INFO 1 ====================-->
                     <div class="home__info">
                         <div>
                             <h3 class="home__info-title">
@@ -291,17 +291,17 @@
                         <div class="qualification__info">
                             <div>
                                 <h3 class="qualification__name">
-
+                                    Bachelor of Engineering, Computer Engineering
                                 </h3>
-                                <span class="qualification__country"></span>
-                                <span class="qualification__year"></span>
+                                <span class="qualification__country">Thayer School of Engineering, NH, USA</span>
+                                <span class="qualification__year">2017 - 2021</span>
                             </div>
                             <div>
                                 <h3 class="qualification__name">
-
+                                    Bachelor of Arts, Engineering Sciences
                                 </h3>
-                                <span class="qualification__country"></span>
-                                <span class="qualification__year"></span>
+                                <span class="qualification__country">Dartmouth College, NH, USA</span>
+                                <span class="qualification__year">2017 - 2021</span>
                             </div>
                             <div>
                                 <h3 class="qualification__name">
@@ -315,13 +315,21 @@
                     <!--==================== QUALIFICATION 2 ====================-->
                     <div class="qualification__content">
                         <h3 class="qualification__title">
-
+                            <i class="ri-building-line"></i> Work
                         </h3>
 
                         <div class="qualification__info">
                             <div>
                                 <h3 class="qualification__name">
+                                    Software Engineer
+                                </h3>
+                                <span class="qualification__country">Microsoft Corporation</span>
+                                <span class="qualification__year">2021 - Present</span>
+                            </div>
 
+                            <div>
+                                <h3 class="qualification__name">
+                                    
                                 </h3>
                                 <span class="qualification__country"></span>
                                 <span class="qualification__year"></span>
@@ -329,6 +337,8 @@
                         </div>
                     </div>
                 </div>
+
+                <img src="assets/images/shape-circle.svg" alt="qualification image" class="qualification__img">
             </section>
 
             <!--==================== SERVICES ====================-->
@@ -338,7 +348,50 @@
 
             <!--==================== PROJECTS ====================-->
             <section class="projects section" id="projects">
-                
+                <h2 class="section__title">Projects</h2>
+                <span class="section__subtitle">Most recent work</span>
+
+                <div class="container section__border">
+                    <div class="projects__container swiper">
+                       <div class="swiper-wrapper">
+                            <!--==================== PROJECTS 1 ====================-->
+                            <div class="projects__content swiper-slide">
+                                <img src="assets/images/project1.jpg" alt="projects image" class="projects__img">
+
+                                <div>
+                                    <span class="projects__subtitle"></span>
+                                    <h1 class="projects__title">Autonomous Vehicle</h1>
+                                    <a href="#" class="projects__button">
+                                        View demo <i class="ri-arrow-right-line"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <!--==================== PROJECTS 2 ====================-->
+                            <div class="projects__content swiper-slide">
+                                <img src="assets/images/project3.jpg" alt="projects image" class="projects__img">
+
+                                <div>
+                                    <span class="projects__subtitle"></span>
+                                    <h1 class="projects__title">Modern Website</h1>
+                                    <a href="#" class="projects__button">
+                                        View demo <i class="ri-arrow-right-line"></i>
+                                    </a>
+                                </div>
+                            </div>
+                       </div> 
+
+                       <!-- Swiper arrows -->
+                       <div class="swiper-button-next">
+                            <i class="ri-arrow-right-s-line"></i>
+                       </div>
+                       <div class="swiper-button-prev">
+                            <i class="ri-arrow-left-s-line"></i>
+                       </div>
+
+                       <!-- Swiper pagination -->
+                       <div class="swiper-pagination"></div>
+                    </div>
+                </div>
             </section>
 
             <!--==================== TESTIMONIAL ====================-->
@@ -365,7 +418,7 @@
         <script src=""></script>
 
         <!--=============== SWIPER JS ===============-->
-        <script src=""></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
         
         <!--=============== EMAIL JS ===============-->
         
